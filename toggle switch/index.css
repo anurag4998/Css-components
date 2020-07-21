@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-switch
+{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(226, 30, 30);
+    border-radius: 75px;
+    transition: all 1s;
+
+}
+
+.switch
+{
+    height: 40px;
+    margin: 4.5px 0 auto 10px;
+    width: 40px;
+    border-radius: 50%;
+    border: black;
+    transition: all 1s;
+
+}
+
+
+.on-animationright
+{
+    transform: translate(90px, 0px); 
+
+}
+
+.on-animationleft
+{
+    transform: translate(0px, 0px);
+
+}
+
+.switch:focus
+{
+    outline-style: none;
+}
+
