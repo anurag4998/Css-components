@@ -48,12 +48,19 @@ button
     width: 50px;
     cursor: pointer;
 }
+.introheader
 
+{
+    width: 100vw;
+}
 #header__intro
 {
+    width: 100vw;
+
     background-color: #333;
     color: white;
     height: 50px;
-    width: 200px;
-    text-align: center;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
 }
